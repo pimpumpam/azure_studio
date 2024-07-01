@@ -1,0 +1,24 @@
+framework: 'pandas' # pandas, pyspark
+extension: 'parquet'
+
+path: '/mnt/batch/tasks/shared/LS_root/mounts/clusters/toby-computing/code/Users/user06/data/004_impute_s1ap_mart'
+
+dtype: {
+    'sbt_bts_cd': 'string',
+    'nb_cell_id': 'string', 
+    'five_minute_interval': 'timestamp',
+    'rrc_estab_cause': 'float',
+    'tx_byte': 'float',
+    'rx_byte': 'float',
+    'tx_packet_cnt': 'int',
+    'rx_packet_cnt': 'int',
+    'total_byte': 'float',
+    'svc_cont_id': 'int',
+    'etl_ymd': 'string'
+}
+
+train_test_split:
+    train_start_time: "2023-04-30 00:00:00"
+    train_end_time: "2024-03-31 23:55:00"
+    test_start_time: "2024-04-01 00:00:00"
+    test_end_time: "2024-04-30 23:55:00"

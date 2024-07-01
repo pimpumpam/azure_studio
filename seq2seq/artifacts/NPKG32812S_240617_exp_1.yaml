@@ -1,0 +1,160 @@
+exp_1:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 288
+    learning_rate: 0.0001
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 20896.73
+    MAPE: 314.13
+    MSE: 662171648.0
+    RMSE: 25732.7
+  time:
+    Inference: 2.12
+    Train: 1608.81
+exp_10:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 576
+    learning_rate: 0.0007
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 21091.06
+    MAPE: 301.93
+    MSE: 613224704.0
+    RMSE: 24763.38
+  time:
+    Inference: 1.96
+    Train: 2050.56
+exp_2:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 288
+    learning_rate: 0.0005
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 23653.02
+    MAPE: 343.26
+    MSE: 774097088.0
+    RMSE: 27822.6
+  time:
+    Inference: 1.69
+    Train: 1596.59
+exp_3:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 288
+    learning_rate: 0.001
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 22266.5
+    MAPE: 304.27
+    MSE: 760176640.0
+    RMSE: 27571.3
+  time:
+    Inference: 1.95
+    Train: 1594.78
+exp_4:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 288
+    learning_rate: 0.005
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 23938.23
+    MAPE: 325.93
+    MSE: 850484800.0
+    RMSE: 29163.07
+  time:
+    Inference: 1.91
+    Train: 1588.21
+exp_5:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 288
+    learning_rate: 0.0007
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 20193.89
+    MAPE: 234.49
+    MSE: 669527936.0
+    RMSE: 25875.24
+  time:
+    Inference: 1.94
+    Train: 1583.82
+exp_6:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 576
+    learning_rate: 0.0001
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 21287.98
+    MAPE: 242.27
+    MSE: 729701504.0
+    RMSE: 27012.99
+  time:
+    Inference: 2.06
+    Train: 2105.83
+exp_7:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 576
+    learning_rate: 0.0005
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 20031.32
+    MAPE: 255.28
+    MSE: 588297856.0
+    RMSE: 24254.85
+  time:
+    Inference: 1.99
+    Train: 2083.79
+exp_8:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 576
+    learning_rate: 0.001
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 22056.94
+    MAPE: 277.4
+    MSE: 704846976.0
+    RMSE: 26548.96
+  time:
+    Inference: 2.37
+    Train: 2081.93
+exp_9:
+  hyp:
+    batch_size: 300
+    input_sequence_length: 576
+    learning_rate: 0.005
+    optimizer: Adam
+    output_sequence_length: 12
+    scaler: MinMaxScaler
+  loss:
+    MAE: 20562.27
+    MAPE: 248.48
+    MSE: 639672768.0
+    RMSE: 25291.75
+  time:
+    Inference: 2.37
+    Train: 2065.28
